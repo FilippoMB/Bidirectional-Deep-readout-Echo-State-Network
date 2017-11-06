@@ -1,0 +1,14 @@
+*.pyc
+draft/esannV2.aux
+draft/esannV2.bbl
+draft/esannV2.blg
+draft/esannV2.log
+draft/esannV2.pdf
+draft/esannV2.tex.backup
+draft/esannV2.synctex.gz
+code/bdesn_models/*
+code/models/*
+code/results
+*.synctex
+code/Training_loss
+code/Training_loss.pdf
