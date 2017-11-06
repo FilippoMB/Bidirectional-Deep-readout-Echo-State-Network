@@ -2,13 +2,15 @@
 
 <img src="./imgs/BDESN.jpg" width="600" height="220">
 
-Implementation in Tensorflow of the Bidirectional Deep Echo State Network (BDESN), proposed in [ref to Arxiv coming soon]. 
+Implementation in Tensorflow of the Bidirectional Deep Echo State Network (BDESN), proposed in [ref to Arxiv coming soon](). 
+
 We perform classification on different multivariate time series dataset, publicly from the [UCI](https://archive.ics.uci.edu/ml/datasets.html) and [UCR](http://www.cs.ucr.edu/~eamonn/time_series_data/) repository.
-We also consider medical data, relative to patients from the University Hospital of North Norway, publicly available [here](https://groups.google.com/forum/#!topic/ml-news/MQtVkxizrrU)
+We also consider medical data, relative to patients from the University Hospital of North Norway, publicly available [here](https://groups.google.com/forum/#!topic/ml-news/MQtVkxizrrU).
+
 We compare the classification accuracy and training time of the BDESN, with a standard Echo State Network (ESN) and a fully trained network, with a recurrent layer configured with Gated Recurrent Units (GRU).
 Please, refer to the original manuscript for the implementation details.
 
-The [code]() folder contains 4 files:
+The [code](https://github.com/FilippoMB/Bidirectional-Deep-Echo-State-Network/tree/master/code) folder contains 4 files:
 * ```main.py```: script to execute a classification task using the BDESN architecture, a standard ESN and a GRU-based RNN.
 * ```moduels.py```: contains methods to construct BDESN and the other RNN architectures considered for comparison.
 * ```reservoir.py```: contains methods to generate and retrieve states form a reservoir.
@@ -16,7 +18,7 @@ The [code]() folder contains 4 files:
 
 ### Experiments
 -----
-To run the experiments, execute the script [main.py](https://github.com/FilippoMB/Bidirectional_deep_ESN/blob/master/code/full_simulation.py).
+To run the experiments, execute the script [main.py](https://github.com/FilippoMB/Bidirectional-Deep-Echo-State-Network/blob/master/code/main.py).
 To configure the experiment, modify the variables in the beginning of the file.
 
 ```python
@@ -33,7 +35,7 @@ TRAIN_BDESN = True
 ```
 If ``` n_runs > 1``` a mean and standard deviation will be returned for the accuracy and training time used by each method.
 Available options for ```dataset_name``` are: ```'ECG'```, ```'LIB'```, ```'CHAR'```, ```'WAF'```, ```'JAP'```, ```'PHAL'``` and ```'BLOOD'```.
-All the dataset used in the experiments are available in the [code]() folder.
+All the dataset used in the experiments are available in the [code](https://github.com/FilippoMB/Bidirectional-Deep-Echo-State-Network/tree/master/dataset) folder.
 
 **Hyperparameters configurations**
 
