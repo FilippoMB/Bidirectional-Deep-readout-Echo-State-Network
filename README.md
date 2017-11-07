@@ -4,7 +4,7 @@
 
 Implementation in Tensorflow of the Bidirectional Deep Echo State Network (BDESN), proposed in [ref to Arxiv coming soon](). 
 
-We perform classification on different multivariate time series dataset, publicly from the [UCI](https://archive.ics.uci.edu/ml/datasets.html) and [UCR](http://www.cs.ucr.edu/~eamonn/time_series_data/) repository.
+We perform classification on different multivariate time series dataset, publicly available from the [UCI](https://archive.ics.uci.edu/ml/datasets.html) and [UCR](http://www.cs.ucr.edu/~eamonn/time_series_data/) repository.
 We also consider medical data, relative to patients from the University Hospital of North Norway, publicly available [here](https://groups.google.com/forum/#!topic/ml-news/MQtVkxizrrU).
 
 We compare the classification accuracy and training time of the BDESN, with a standard Echo State Network (ESN) and a fully trained network, with a recurrent layer configured with Gated Recurrent Units (GRU).
@@ -12,7 +12,7 @@ Please, refer to the original manuscript for the implementation details.
 
 The [code](https://github.com/FilippoMB/Bidirectional-Deep-Echo-State-Network/tree/master/code) folder contains 4 files:
 * ```main.py```: script to execute a classification task using the BDESN architecture, a standard ESN and a GRU-based RNN.
-* ```moduels.py```: contains methods to construct BDESN and the other RNN architectures considered for comparison.
+* ```models.py```: contains methods to construct BDESN and the other RNN architectures considered for comparison.
 * ```reservoir.py```: contains methods to generate and retrieve states form a reservoir.
 * ```tf_utils.py```: contains methods for training some network components (the MLP in BDESN and GRU, and the recurrent layer in GRU only) with gradient descent.
 
