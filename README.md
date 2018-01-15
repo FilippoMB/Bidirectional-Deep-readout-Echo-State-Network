@@ -2,7 +2,7 @@
 
 <img src="./imgs/BDESN.jpg" width="600" height="220">
 
-Implementation in Tensorflow of the Bidirectional Deep Echo State Network (BDESN), proposed in [ref to Arxiv coming soon](). 
+Implementation in Tensorflow of the Bidirectional Deep Echo State Network (BDESN), proposed in [this paper](https://arxiv.org/abs/1711.06509). 
 
 We perform classification on different multivariate time series dataset, publicly available from the [UCI](https://archive.ics.uci.edu/ml/datasets.html) and [UCR](http://www.cs.ucr.edu/~eamonn/time_series_data/) repository.
 We also consider medical data, relative to patients from the University Hospital of North Norway, publicly available [here](https://groups.google.com/forum/#!topic/ml-news/MQtVkxizrrU).
