@@ -1,4 +1,4 @@
-## Bidirectional Deep Echo State Network
+## Bidirectional Deep-reservoir Echo State Network
 
 <img src="./imgs/BDESN.jpg" width="600" height="220">
 
