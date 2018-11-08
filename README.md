@@ -1,3 +1,7 @@
+
+#### &rarr; Check the new [Reservoir Computing framework](https://github.com/FilippoMB/Reservoir-Computing-framework-for-multivariate-time-series-classification) for more efficient and performing models
+
+
 ## Bidirectional Deep-reservoir Echo State Network
 
 <img src="./imgs/BDESN.jpg" width="600" height="220">
