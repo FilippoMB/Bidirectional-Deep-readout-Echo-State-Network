@@ -20,6 +20,24 @@ The [code](https://github.com/FilippoMB/Bidirectional-Deep-Echo-State-Network/tr
 * ```reservoir.py```: contains methods to generate and retrieve states form a reservoir.
 * ```tf_utils.py```: contains methods for training some network components (the MLP in BDESN and GRU, and the recurrent layer in GRU only) with gradient descent.
 
+### Citation
+Please, consider citing the original paper if you are using this library in your reasearch
+
+    @inproceedings{bianchi2018bidirectional,
+      author    = {Filippo Maria Bianchi and
+                   Simone Scardapane and
+                   Sigurd L{\o}kse and
+                   Robert Jenssen},
+      title     = {Bidirectional deep-readout echo state networks},
+      booktitle = {26th European Symposium on Artificial Neural Networks, {ESANN} 2018,
+                   Bruges, Belgium, April 25-27, 2018},
+      year      = {2018},
+      url       = {https://www.esann.org/sites/default/files/proceedings/legacy/es2018-49.pdf},
+      timestamp = {Tue, 02 Aug 2022 16:46:00 +0200},
+      biburl    = {https://dblp.org/rec/conf/esann/BianchiSLJ18.bib},
+      bibsource = {dblp computer science bibliography, https://dblp.org}
+    }
+
 ### Experiments
 -----
 To run the experiments, execute the script [main.py](https://github.com/FilippoMB/Bidirectional-Deep-Echo-State-Network/blob/master/code/main.py).
